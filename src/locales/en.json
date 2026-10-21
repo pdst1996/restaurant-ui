@@ -1,0 +1,94 @@
+{
+  "app": {
+    "name": "PS Restaurant",
+    "description": "The best meal in Guadalajara you could ever taste",
+    "copyright": "© 2026 PS Solutions. All rights reserved.",
+    "welcome": "Welcome back!",
+    "enterData": "Enter your details to access your account."
+  },
+  "menu": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "logout": "Log out"
+  },
+  "login": {
+    "title": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "usernamePlaceholder": "Username or email",
+    "passwordPlaceholder": "Enter your password",
+    "secureMessage": "Secure access to your workspace",
+    "loginError": "Login error"
+  },
+  "common": {
+    "welcome": "Welcome",
+    "username": "Username",
+    "password": "Password",
+    "login": "Sign in",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "theme": {
+    "switchLabel": "Toggle theme",
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "orders": {
+    "create": {
+      "title": "Create new order",
+      "addProductTitle": "Add product to order",
+      "addProduct": "Add product",
+      "addTable": "Add table",
+      "submit": "Create order",
+      "tablePlaceholder": "Select a table",
+      "customerNamePlaceholder": "Enter the customer's name",
+      "productPlaceholder": "Enter the product ID or name",
+      "otherAllergiesPlaceholder": "Describe the allergies",
+      "fields": {
+        "table": "Table",
+        "customerName": "Customer name",
+        "allergies": "Allergies",
+        "otherAllergies": "Other allergies",
+        "products": "Products",
+        "product": "Product",
+        "notes": "Notes",
+        "takeaway": "Takeaway",
+        "attributes": "Options",
+        "size": "Size",
+        "quantity": "Quantity"
+      },
+      "allergens": {
+        "gluten": "Gluten",
+        "nuts": "Nuts",
+        "milk": "Milk",
+        "other": "Other"
+      },
+      "messages": {
+        "productAdded": "Product '{productName}' added to the order.",
+        "productAlreadyAdded": "This product is already in the order."
+      },
+      "productNames": {
+        "0001": "Green Chilaquiles", "0002": "Red Chilaquiles", "0003": "Mixed Chilaquiles",
+        "0004": "Chilaquiles with Chicken", "0005": "Chilaquiles with Skirt Steak", "0006": "Ranch-Style Eggs",
+        "0007": "Ham and Eggs", "0008": "Mexican-Style Eggs", "0009": "Chorizo and Eggs",
+        "0010": "Molletes", "0011": "Al Pastor Tacos", "0012": "Skirt Steak Tacos",
+        "0013": "Birria Tacos", "0014": "Chicken Tacos", "0015": "Shrimp Tacos",
+        "0016": "Classic Burger", "0017": "BBQ Burger", "0018": "Mexican Burger",
+        "0019": "Chicken Burger", "0020": "Cheese Quesadilla", "0021": "Skirt Steak Quesadilla",
+        "0022": "Chicken Quesadilla", "0023": "Green Enchiladas", "0024": "Red Enchiladas",
+        "0025": "Swiss Enchiladas", "0026": "Beef Burrito", "0027": "Chicken Burrito",
+        "0028": "Vegetarian Burrito", "0029": "Drowned Sandwich", "0030": "Pork Leg Sandwich",
+        "0031": "Grilled Meat Platter", "0032": "Grilled Skirt Steak", "0033": "Chicken Fajitas",
+        "0034": "Grilled Salmon", "0035": "Guacamole", "0036": "Nachos",
+        "0037": "French Fries", "0038": "Onion Rings", "0039": "House Salad",
+        "0040": "Caesar Salad", "0041": "American Coffee", "0042": "Caffè Latte",
+        "0043": "Cappuccino", "0044": "Mexican Hot Chocolate", "0045": "Limeade",
+        "0046": "Horchata", "0047": "Hibiscus Water", "0048": "Orange Juice",
+        "0049": "Green Juice", "0050": "Soft Drink", "0051": "Brownie",
+        "0052": "Chocolate Cake", "0053": "Neapolitan Flan", "0054": "Cheesecake", "0055": "Churros"
+      }
+    }
+  }
+}

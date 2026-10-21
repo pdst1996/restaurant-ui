@@ -1,0 +1,193 @@
+:root {
+  color-scheme: light;
+  --app-bg: #fff8ef;
+  --app-surface: rgb(255 253 249 / 92%);
+  --app-surface-strong: #fffdf9;
+  --app-surface-muted: #f9eee2;
+  --app-text: #3b2720;
+  --app-text-muted: #876f64;
+  --app-heading: #3b2720;
+  --app-border: #ead8c9;
+  --app-shadow: 0 12px 32px rgb(84 45 29 / 10%);
+  --app-nav-shadow: 0 4px 20px rgb(84 45 29 / 8%);
+  --app-scrollbar-thumb: #dca27e;
+  --app-scrollbar-thumb-hover: #c9653f;
+  --app-login-page-bg: #fff8ef;
+  --app-login-panel-bg: #fff8ef;
+  --app-login-ink: #3b2720;
+  --app-login-brand-ink: #fff8ef;
+  --app-login-muted: #876f64;
+  --app-login-border: #ead8c9;
+  --app-login-gradient: linear-gradient(135deg, #c9653f 0%, #d9784a 48%, #e49a68 100%);
+  --app-login-gradient-soft: rgb(255 231 204 / 18%);
+  --app-login-lines: rgb(255 248 239 / 22%);
+  --app-login-copy: rgb(255 248 239 / 65%);
+  --app-login-description: rgb(255 248 239 / 82%);
+  --app-login-accent: #c9653f;
+  --app-login-accent-hover: #ad5434;
+  --app-login-control-bg: #fffdf9;
+  --app-login-control-focus-bg: #ffffff;
+  --app-login-focus-ring: rgb(217 120 74 / 12%);
+
+  --el-color-primary: #c9653f;
+  --el-color-primary-light-3: #dc8c68;
+  --el-color-primary-light-5: #e9a06f;
+  --el-color-primary-light-7: #f2c5aa;
+  --el-color-primary-light-8: #f7dcc9;
+  --el-color-primary-light-9: #fdf1e8;
+  --el-color-primary-dark-2: #a84f31;
+  --el-color-success: #758653;
+  --el-color-warning: #ba792d;
+  --el-color-danger: #b74f3e;
+  --el-color-info: #876f64;
+  --el-bg-color: #fffdf9;
+  --el-bg-color-page: #fff8ef;
+  --el-bg-color-overlay: #fffdf9;
+  --el-fill-color-blank: #fffdf9;
+  --el-fill-color-light: #f9eee2;
+  --el-fill-color-lighter: #fdf4ec;
+  --el-fill-color-extra-light: #fff9f3;
+  --el-fill-color-dark: #ead8c9;
+  --el-text-color-primary: #3b2720;
+  --el-text-color-regular: #60453a;
+  --el-text-color-secondary: #876f64;
+  --el-text-color-placeholder: #a78a7c;
+  --el-border-color: #ead8c9;
+  --el-border-color-light: #f2dfd0;
+  --el-border-color-lighter: #f7e9df;
+  --el-border-color-extra-light: #fbede4;
+}
+
+html.dark {
+  color-scheme: dark;
+  --app-bg: #211510;
+  --app-surface: rgb(45 28 22 / 92%);
+  --app-surface-strong: #2d1c16;
+  --app-surface-muted: #422b22;
+  --app-text: #fff8ef;
+  --app-text-muted: #d8b9aa;
+  --app-heading: #fff8ef;
+  --app-border: #6a493c;
+  --app-shadow: 0 18px 42px rgb(18 8 5 / 38%);
+  --app-nav-shadow: 0 8px 28px rgb(18 8 5 / 36%);
+  --app-scrollbar-thumb: #765548;
+  --app-scrollbar-thumb-hover: #a5755d;
+  --app-login-page-bg: #211510;
+  --app-login-panel-bg: #2d1c16;
+  --app-login-ink: #fff8ef;
+  --app-login-brand-ink: #fff8ef;
+  --app-login-muted: #d8b9aa;
+  --app-login-border: #6a493c;
+  --app-login-gradient: linear-gradient(135deg, #743720 0%, #a85838 50%, #d9784a 100%);
+  --app-login-gradient-soft: rgb(255 218 190 / 16%);
+  --app-login-lines: rgb(255 248 239 / 18%);
+  --app-login-copy: rgb(255 248 239 / 60%);
+  --app-login-description: rgb(255 248 239 / 82%);
+  --app-login-accent: #e9a06f;
+  --app-login-accent-hover: #f0b183;
+  --app-login-control-bg: #38231c;
+  --app-login-control-focus-bg: #422a20;
+  --app-login-focus-ring: rgb(233 160 111 / 20%);
+
+  --el-color-primary: #e9a06f;
+  --el-color-primary-light-3: #b66f4d;
+  --el-color-primary-light-5: #8e5039;
+  --el-color-primary-light-7: #693a2b;
+  --el-color-primary-light-8: #542f25;
+  --el-color-primary-light-9: #41241e;
+  --el-color-primary-dark-2: #f2b58d;
+  --el-color-success: #a4b77a;
+  --el-color-warning: #e0a65d;
+  --el-color-danger: #dc8877;
+  --el-color-info: #c5a397;
+  --el-bg-color: #2d1c16;
+  --el-bg-color-page: #211510;
+  --el-bg-color-overlay: #38231c;
+  --el-fill-color-blank: #2d1c16;
+  --el-fill-color-light: #422b22;
+  --el-fill-color-lighter: #4d3228;
+  --el-fill-color-extra-light: #593a2e;
+  --el-fill-color-dark: #211510;
+  --el-text-color-primary: #fff8ef;
+  --el-text-color-regular: #ebd1c4;
+  --el-text-color-secondary: #d8b9aa;
+  --el-text-color-placeholder: #ad8d7e;
+  --el-border-color: #6a493c;
+  --el-border-color-light: #583b30;
+  --el-border-color-lighter: #4a3027;
+  --el-border-color-extra-light: #3d281f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--app-text);
+  background: var(--app-bg);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#app,
+.main-layout,
+.main-header,
+.main-content,
+.content-card,
+.navbar,
+.login-page,
+.form-panel,
+.brand-panel,
+.form-wrapper,
+.wordmark,
+.form-heading h2,
+.form-heading p,
+.secure-message,
+.login-button,
+.login-form .el-form-item__label,
+.login-form .el-input__wrapper,
+.desktop-menu .el-menu-item,
+.mobile-menu .el-menu-item,
+.el-drawer,
+.el-select,
+.el-button,
+.el-switch,
+.el-switch__core,
+.el-avatar,
+.el-text {
+  transition:
+    color 0.80s ease,
+    background-color 0.80s ease,
+    border-color 0.80s ease,
+    box-shadow 0.80s ease,
+    fill 0.80s ease,
+    stroke 0.80s ease,
+    opacity 0.80s ease,
+    transform 0.80s ease;
+}

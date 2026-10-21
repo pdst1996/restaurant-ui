@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "PS Restaurant",
+    "description": "La mejor comida que tu paladar pueda saborear en la coidad de Guadalajara",
+    "copyright": "© 2026 PS Solutions. Todos los derechos reservados.",
+    "welcome": "¡Bienvenido!",
+    "enterData": "Ingresa tus datos para acceder.",
+    "office": "Ciudadela",
+    "address": "Av Moctezuma 1437, Jardines del Sol, 45050 Zapopan, Jal."
+  },
+  "menu": {
+    "home": "Inicio",
+    "dashboard": "Dashboard",
+    "logout": "Cerrar sesión",
+    "orders": "Ordenes"
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "submit": "Entrar",
+    "usernamePlaceholder": "Usuario o correo electrónico",
+    "passwordPlaceholder": "Escribe tu contraseña",
+    "secureMessage": "Acceso seguro a tu espacio de trabajo",
+    "loginError": "Error al iniciar sesión"
+  },
+  "common": {
+    "welcome": "Bienvenido",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "login": "Iniciar sesión",
+    "office": "Sucursal",
+    "cancel": "Cancelar"
+  },
+  "theme": {
+    "switchLabel": "Cambiar tema",
+    "light": "Tema claro",
+    "dark": "Tema oscuro"
+  },
+  "orders": {
+    "create": {
+      "title": "Añadir nueva orden",
+      "addProductTitle": "Agregar producto a la orden",
+      "addProduct": "Agregar producto",
+      "addTable": "Añadir mesa",
+      "submit": "Crear orden",
+      "tablePlaceholder": "Seleccione la mesa",
+      "customerNamePlaceholder": "Escriba el nombre del cliente",
+      "productPlaceholder": "Escribe el ID o nombre del producto",
+      "otherAllergiesPlaceholder": "Describa las alergias",
+      "fields": {
+        "table": "Mesa",
+        "customerName": "Nombre del cliente",
+        "allergies": "Alergias",
+        "products": "Productos",
+        "product": "Producto",
+        "notes": "Notas",
+        "takeaway": "Para llevar"
+      },
+      "allergens": {
+        "gluten": "Gluten",
+        "nuts": "Nueces",
+        "milk": "Leche",
+        "other": "Otros"
+      },
+      "messages": {
+        "productAdded": "Producto '{productName}' agregado a la orden.",
+        "productAlreadyAdded": "Este producto ya está en la orden."
+      },
+      "productNames": {
+        "0001": "Chilaquiles Verdes", "0002": "Chilaquiles Rojos", "0003": "Chilaquiles Mixtos",
+        "0004": "Chilaquiles con Pollo", "0005": "Chilaquiles con Arrachera", "0006": "Huevos Rancheros",
+        "0007": "Huevos con Jamón", "0008": "Huevos a la Mexicana", "0009": "Huevos con Chorizo",
+        "0010": "Molletes", "0011": "Tacos al Pastor", "0012": "Tacos de Arrachera",
+        "0013": "Tacos de Birria", "0014": "Tacos de Pollo", "0015": "Tacos de Camarón",
+        "0016": "Hamburguesa Clásica", "0017": "Hamburguesa BBQ", "0018": "Hamburguesa Mexicana",
+        "0019": "Hamburguesa de Pollo", "0020": "Quesadilla de Queso", "0021": "Quesadilla de Arrachera",
+        "0022": "Quesadilla de Pollo", "0023": "Enchiladas Verdes", "0024": "Enchiladas Rojas",
+        "0025": "Enchiladas Suizas", "0026": "Burrito de Res", "0027": "Burrito de Pollo",
+        "0028": "Burrito Vegetariano", "0029": "Torta Ahogada", "0030": "Torta de Pierna",
+        "0031": "Parrillada", "0032": "Arrachera", "0033": "Fajitas de Pollo",
+        "0034": "Salmón a la Parrilla", "0035": "Guacamole", "0036": "Nachos",
+        "0037": "Papas Fritas", "0038": "Aros de Cebolla", "0039": "Ensalada de la Casa",
+        "0040": "Ensalada César", "0041": "Café Americano", "0042": "Café Latte",
+        "0043": "Cappuccino", "0044": "Chocolate Caliente", "0045": "Limonada",
+        "0046": "Agua de Horchata", "0047": "Agua de Jamaica", "0048": "Jugo de Naranja",
+        "0049": "Jugo Verde", "0050": "Refresco", "0051": "Brownie",
+        "0052": "Pastel de Chocolate", "0053": "Flan Napolitano", "0054": "Cheesecake", "0055": "Churros"
+      }
+    }
+  }
+}
